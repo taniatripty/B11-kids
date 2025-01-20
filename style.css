@@ -76,6 +76,43 @@ hr{
     border: 1px solid orange;
     display: none;
 }
+.banner{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-top: 60px;
+}
+.left .tittle{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.t1{
+    color: orange;
+}
+.t3{
+    color: skyblue;
+}
+.left p{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.btn2{
+    background: black;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.right img{
+    
+    margin-top: -20px;
+}
+
 @media screen and (max-width:576px) {
     .logo1,.menuicon,hr{
         display: block;
@@ -86,8 +123,12 @@ hr{
         display: none;
     }
     .navbar{
-        margin: 10px ;
-        padding: 10px;
+        margin: 0px ;
+        padding: 0px;
+    }
+    .banner{
+        margin: 0;
+        padding: 0;
     }
     .features>ul{
         position:absolute;
@@ -112,4 +153,21 @@ hr{
        li:hover,li:active{
          color: red;
        }
+       .banner{
+        flex-direction: column;
+       }
+       img{
+        width: 100%;
+       }
+       .right img{
+        order: 0;
+        margin: 0 auto;
+        height:300px;
+        width:300px;
+       }
+       .left{
+        margin: 0 auto;
+        order: 1;
+       }
+
     }
