@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo1">
+                <img src="/assets/logo.png" height="50px" width="50px" alt="">
+            </div>
+            <div class="logo">
+                <img src="/assets/logo.png" height="50px" width="50px" alt="">
+                <h3 class="tittle">SCHOOL</h3>
+                </div>
+                <div class="features">
+                    <ul id="menulist">
+                       <li><a href="" class="tittle1">Home</a></li>
+                       <li><a href="" class="tittle2">About</a></li>
+                       <li><a href="" class="tittle3">Facilities</a></li>
+                       <li><a href="" class="tittle4">Admission</a></li>
+
+                    </ul>
+                </div>
+                <div >
+                    <button class="btn"> Contact</button>
+                </div>
+                <div class="menuicon">
+                    <i class="fa fa-navicon " onclick="myFunction()"></i>
+                </div>
+               
+            
+
+        </nav>
+        <hr>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        const navDiolog=document.getElementById('menulist');
+    navDiolog.style.maxHeight="0px";
+    function myFunction(){
+        if( navDiolog.style.maxHeight== "0px"){
+            navDiolog.style.maxHeight="300px";
+        }
+        else{
+            navDiolog.style.maxHeight="0px";
+        }
+    }
+    </script>
+</body>
+</html>
+    

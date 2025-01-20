@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+   
+   
+
+}
+.logo {
+    display: flex;
+    
+}
+.logo img{
+    margin-right: 10px;
+}
+.logo .tittle{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.features>ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+li .tittle1{
+    color: orange;
+}
+li .tittle2{
+    color: rgb(16, 167, 227);
+
+}
+li .tittle3{
+    color: #05D4DF;
+}
+li .tittle4{
+    color: #5D58EF;
+}
+.btn{
+    height: 40px;
+    padding:  8px 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+   
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
+.menuicon{
+    font-size: 30px;
+    display: none;
+}
+.logo1{
+    display: none;
+
+}
+hr{
+    border: 1px solid orange;
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .logo1,.menuicon,hr{
+        display: block;
+    }
+    
+  
+    .logo,.btn{
+        display: none;
+    }
+    .navbar{
+        margin: 10px ;
+        padding: 10px;
+    }
+    .features>ul{
+        position:absolute;
+        width: 100%;
+        
+       top: 100px;
+       background: #e67809;
+       left: 0;
+       text-align: center;
+       display: block;
+       overflow: hidden;
+       
+     
+      }
+      ul li{
+         padding: 10px;
+     
+      }
+       ul li a{
+         font-size: 22px;
+       }
+       li:hover,li:active{
+         color: red;
+       }
+    }
