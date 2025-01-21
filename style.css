@@ -240,13 +240,13 @@ margin-bottom: 20px;
     margin-bottom: 50px;
 }
 .big-images img{
-    margin-bottom: 60px;
-}
-.big-images .tittle{
     margin-bottom: 30px;
 }
+.big-images .tittle{
+    margin-bottom:20px;
+}
 .p1 img{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .image1{
     display: grid;
@@ -288,11 +288,63 @@ margin-bottom: 20px;
     justify-content: center;
     margin-top: 50px;
     padding: 20px;
-    margin-bottom: 50px;
+    
 }
 .last .btn2{
     margin-bottom: 30px;
 }
+.big-btn{
+    background: #05D4DF;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: .8rem;
+    margin-left: 40px;
+    position: relative;
+    top: -51px;
+    color: aliceblue;
+}
+.big-btn2{
+    background:#95B226;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: .8rem;
+    margin-left: 50px;
+    position: relative;
+    top: -30px;
+    color: aliceblue;
+}
+.btn5{
+    background: #5D58EF;
+}
+.footer-part{
+   height: 300px;
+    background-color:#01ACFD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   color: white;
+}
+.span1{
+    position: relative;
+    top: -10px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+.part2 p{
+margin-bottom: 10px;
+}
+.part3 h3{
+    position: relative;
+    top: -20px;
+    font-size: 2rem;
+}
+.part2 img{
+    margin-left:30px;
+}
+
 @media screen and (max-width:576px) {
     .logo1,.menuicon,hr{
         display: block;
@@ -400,5 +452,30 @@ margin-bottom: 20px;
        .stories{
         overflow-x: hidden;
        }
-       
+       .big-btn2{
+        font-size: .5rem;
+        margin-left: 20px;
+       }
+       .footer-part{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        padding: 10px;
+        height: auto;
+       }
+       .span1{
+        font-size: 1.5rem;
+       }
+       .part1 img{
+        width:40px;
+        height: 40px;
+       }
+       .part1 p{
+        font-size: .5rem;
+       }
+       .part3 img{
+        height: 30px;
+        width: 30px;
+       }
     }
