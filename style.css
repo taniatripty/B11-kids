@@ -64,6 +64,9 @@ li .tittle4{
     background-color: orange;
     border: none;
 }
+.btn:hover{
+    background: #01ACFD;
+}
 .menuicon{
     font-size: 30px;
     display: none;
@@ -75,6 +78,12 @@ li .tittle4{
 hr{
     border: 1px solid orange;
     display: none;
+}
+.mar{
+    background-color: rgba(255, 228, 196,0.6);
+    padding: 15px;
+    color: rgba(24, 23, 23,0.5);
+    font-size: 2rem;
 }
 .banner{
     margin: 50px 100px;
@@ -108,6 +117,9 @@ hr{
     cursor: pointer;
     border: none;
 }
+.btn2:hover{
+    background: #5D58EF;
+}
 .right img{
     
     margin-top: -20px;
@@ -136,6 +148,7 @@ hr{
     text-align: center;
     box-shadow: 2px 2px 4px rgba(163, 155, 162, 0.6);
     padding: 10px;
+    border-radius: 20px;
    background-image: linear-gradient(to bottom,rgba(116, 205, 240,.2),white);
   
 }
@@ -143,6 +156,7 @@ hr{
     text-align: center;
     box-shadow: 2px 2px 4px rgba(163, 155, 162, 0.6);
     padding: 10px;
+    border-radius: 20px;
     background-image: linear-gradient(to bottom,rgba(238, 172, 49,.1),white);
 
 }
@@ -174,6 +188,7 @@ hr{
     text-align: center;
     box-shadow: 2px 2px 4px rgba(163, 155, 162, 0.6);
     padding: 10px;
+    border-radius: 20px;
     background-image: linear-gradient(to bottom,rgba(226, 22, 229,0.1),white);
 }
 .card1 .tittle{
@@ -191,6 +206,12 @@ margin-bottom: 20px;
     margin-bottom: 15px;
     color: rgb(6, 172, 238);
 }
+.btn1:hover{
+    background: #e67809;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
 .arrow{
     margin: 50px 100px;
     display: flex;
@@ -206,6 +227,9 @@ margin-bottom: 20px;
     text-align: center;
    
 
+}
+.circle1:hover{
+    background: #01ACFD;
 }
 .circle1 i{
     text-align: center;
@@ -304,6 +328,9 @@ margin-bottom: 20px;
     top: -51px;
     color: aliceblue;
 }
+.big-btn:hover{
+    background: #e67809;
+}
 .big-btn2{
     background:#95B226;
     border: none;
@@ -314,6 +341,9 @@ margin-bottom: 20px;
     position: relative;
     top: -30px;
     color: aliceblue;
+}
+.big-btn2:hover{
+    background: #e67809;
 }
 .btn5{
     background: #5D58EF;
@@ -349,7 +379,13 @@ margin-bottom: 10px;
     .logo1,.menuicon,hr{
         display: block;
     }
-    
+    .mar{
+        font-size: .7rem;
+        margin-top: 10px;
+        color: black;
+        font-weight: 600;
+        
+    }
           .navbar ,.banner,.cards{
             margin: 10px;
             padding: 8px;
@@ -463,6 +499,7 @@ margin-bottom: 10px;
         align-items: start;
         padding: 10px;
         height: auto;
+        
        }
        .span1{
         font-size: 1.5rem;
@@ -477,5 +514,6 @@ margin-bottom: 10px;
        .part3 img{
         height: 30px;
         width: 30px;
+        margin-bottom: 70px;
        }
     }
